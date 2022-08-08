@@ -152,3 +152,8 @@
       height: 120px;
     }
   }
+  @media only screen and (max-width : 380px){
+    .navbar-logo {
+        font-size: 1.5rem;
+    }
+}
