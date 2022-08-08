@@ -7,7 +7,7 @@ class Redirector extends Component {
     
     render() { 
         return (
-                <div onClick={()=>this.handelClick()} className={this.props.className}>
+                <div onClick={()=>this.handelClick()} className={this.props.className} style={{cursor:"pointer"}}>
                 {
                     this.props.children
                 }

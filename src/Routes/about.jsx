@@ -12,7 +12,7 @@ class About extends Component {
             <div className="meName">Jack M. Isaac</div>
             <div className="info">
                 Hellow every one, I am Jack M. Isaac
-                I study AI, I also love web development i have many more projects you can visit my<Redirector href="https://github.com/JackMahfouz" target="blank"> github</Redirector> 
+                I study AI, I also love web development i have many more projects you can visit my<Redirector to="https://github.com/JackMahfouz" target="_blank"> github</Redirector> 
             </div>
         </article>
     </div>
