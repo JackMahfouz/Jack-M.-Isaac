@@ -28,8 +28,10 @@ function NavBar() {
         <>
          <div className="navbar">
             <div className="navbar-container container">
+              <NavLink to='Jack-M.-Isaac/' className="navbar-logo" >
               <FaBrain className="navbar-icon"></FaBrain>
                   Jack M. Isaac
+              </NavLink>
               <div className="menu-icon" onClick={handleClick}>
                 {!click ? <FaBars/>:<FaTimes/>}
               </div> 
