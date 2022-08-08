@@ -33,7 +33,7 @@ function NavBar() {
                   Jack M. Isaac
               </NavLink>
               <div className="menu-icon" onClick={handleClick}>
-                {!click ? <FaBars/>:<FaTimes/>}
+              {!click ? <FaBars style={{ color: "white" }} /> : <FaTimes style={{ color: "white" }} />}
               </div> 
               <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li className="nav-item">
